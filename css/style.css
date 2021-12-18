@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin:0px;
+    top:0px;
+    
+}
+.bg{
+    background-image: url('/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.logo{
+    /* border: 2px solid red; */
+    margin: 5px -32px;
+    padding: 20px 0px;
+
+}
+.logo img{
+    
+    width:120px;
+    height:120px;
+    border-radius: 58px;
+}
+.navbar{
+    /* background-color:cyan transparent; */
+    position: sticky;
+    border:2px solid black;
+    display: flex;
+    padding: 8px;
+}
+.nav-rightcontainer{
+    /* border:2px solid black; */
+    width:25%;
+    padding: 20px;
+    margin: 2px;
+}
+.heading{
+    text-align: center;
+    /* text-decoration: underline; */
+    font-size:30px;
+    margin:29px ;
+    width: 40%;
+    color:rgb(6, 75, 148);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-list{
+    list-style: none;
+    padding: 37px 23px;
+}
+a{
+    font-size:40px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    background:whitesmoke;
+    color:blue;
+    border-radius: 4px;
+}
+.nav-left{
+    display: flex;
+    margin: -32px -27px;
+}
+.nav-left li{
+    margin: 35px;
+    padding: 25px;
+}
+.nav-right{
+    display: flex;
+    float: right;
+    padding: 0PX 12px;
+    margin: -15px -5px;
+}
+.con{
+    margin: -3px 108px;
+}
+
+.nav-leftcontainer{
+    padding: 30px;
+    /* border:2px solid black; */
+    width:25%;
+    margin: -15px;
+}
